@@ -21,6 +21,7 @@ public class MissoesModel {
 
     private String nome;
 
+    @Column(unique = true)
     private String dificuldade;
 
 
